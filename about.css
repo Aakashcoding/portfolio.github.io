@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.about h1{
+    font-size: 180px;
+    font-family:  sans-serif;
+    color: #5998b6;
+    font-weight: bolder;
+}
+.about h1 span{
+    padding-left: 15px;
+    color: rgb(74, 165, 165);
+}
+.head h3{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(39, 26, 26);
+    font-weight: bold;
+    padding-top: px;
+}
+.about{
+    display: flex;
+    background-color: #fdfdfc;
+}
+.nav{
+    background-color: rgb(230, 130, 130);
+    height: 60px;
+}
+.me img{
+    padding-top: 10px;
+    height: 90%;
+    width: 100%;
+    padding-left: 48.5px;
+}
+.container img{
+    height: 400px;
+padding-top: 10px;
+    width: 500px;
+}
+.container p{
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: flex;
+    font-family: cursive;
+}
+.container h4{
+    margin-top: 150px;
+    margin-left: 40px;
+   color: #1f4252;
+   font-weight: 900;
+  font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 5px 10px 10px 5px;
+}
+
+.box2 h3{
+    color: #211c4e;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.box3 h3{
+    color: #211c4e;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.box4 h3{
+    color: #211c4e;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.box ul li{
+    color: black;
+    padding-left: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+.box4 p{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+.box1 img{
+    height: 100%;
+    width: 100%;
+}
+.footcontainer{
+    display: flex;
+    width: 100%;
+    background-color: #7e95f1;
+}
+.box{
+    width: 25%;
+}
+.crossbtn{
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    left: 97%;
+    color:black;
+    transition: all 0.2s ease-in;
+  
+  }
+  .crossbtn:hover{
+    background-color: transparent;
+    opacity: 1s;
+    border: 1px solid black;
+    border-radius: 00%;
+  }
+  
